@@ -1,1 +1,99 @@
+<kml>
+	<Document>
+	<name>KML sample file </name>
+	<description>KML file</destription>
+	
+	<Style id="blueLine">
+<LineStyle>
+<!-- Opacity, Blue, Green, Red -->
+<color>ffff0000</color>
+<width>4</width>
+</LineStyle>
+</Style>
+<Placemark>
+<name>Blue Line</name>
+<styleUrl>#blueLine</styleUrl>
+<LineString>
+<altitudeMode>relative</altitudeMode>
+<coordinates>
+<!-- longitude, latitude, altitude (above sea level) -->
+20.515208,53.819291,0
+20.476163,53.823461,0
+20.461459,53.861497,0
+20.394727,53.989817,0
+20.333893,54.037974,0
+20.132648,54.113436,0
+19.625288,54.064316,0
+19.382919,54.145347,0
+18.723487,54.320519,0
+18.615263,54.375791,0
 
+</coordinates>
+</LineString>
+</Placemark>
+	
+	<Placemark>
+		<name>Kwatera Glowna</name>
+		<description>Kiezliny, Pawla Sowy 1</description>
+		<Point>
+		<coordinates>20.515208,53.819291,0</coordinates>
+		</Point>
+		</Placemark>
+		<Placemark>
+		<name>Mostek na Wadągiem</name>
+		<description>Kiezliny, Pawla Sowy 27</description>
+		<Point>
+		<coordinates>20.510645,53.818387,0</coordinates>
+		</Point>
+		</Placemark>
+		<Placemark>
+		<name>Remiza </name>
+		<description>Kiezliny, jagally 3</description>
+		<Point>
+		<coordinates>20.507226,53.821675,0</coordinates>
+		</Point>
+		</Placemark>
+		<Placemark>
+		<name>Boisko</name>
+		<description>Kiezliny, Domagaly 2</description>
+		<Point>
+		<coordinates>20.507022,53.822397,0</coordinates>
+		</Point>
+		</Placemark>
+		<Placemark>
+		<name>Kosciolek</name>
+		<description>Kiezliny, Jagally 15</description>
+		<Point>
+		<coordinates>20.512158,53.820668,0</coordinates>
+		</Point>
+		</Placemark>
+		
+		<Style id="bluePoly"><PolyStyle><!-- Opacity, Blue, Green, Red -->
+<color>ffff0000</color>
+<fill>1</fill>
+<outline>1</outline>
+</PolyStyle>
+</Style>
+<Placemark>
+<name>The Pentagon</name>
+<styleUrl>#bluePoly</styleUrl>
+<Polygon><outerBoundaryIs>
+<LinearRing>
+<extrude>1</extrude>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+<!-- longitude, latitude, altitude (above sea level) -->
+18.614133,54.371080,100
+18.614676,54.371008,100
+18.615296,54.372147,100
+18.614754,54.372213,100
+
+ </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+		
+		
+		</Document>
+		</kml>
