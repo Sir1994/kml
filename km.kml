@@ -68,7 +68,9 @@
 		</Point>
 		</Placemark>
 		
-		<Style id="bluePoly"><PolyStyle><!-- Opacity, Blue, Green, Red -->
+		<Style id="bluePoly">
+		<PolyStyle>
+		<!-- Opacity, Blue, Green, Red -->
 <color>ffff0000</color>
 <fill>1</fill>
 <outline>1</outline>
