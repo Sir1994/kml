@@ -1,9 +1,9 @@
 <kml>
-	<Document>
-	<name>KML sample file </name>
-	<description>KML file</destription>
+<Document>
+<name>KML sample file </name>
+<description>KML file</description>
 	
-	<Style id="blueLine">
+<Style id="blueLine">
 <LineStyle>
 <!-- Opacity, Blue, Green, Red -->
 <color>ffff0000</color>
